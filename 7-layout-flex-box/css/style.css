@@ -1,0 +1,68 @@
+body {
+  color: white;
+}
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header {
+  background-color: red;
+  font-size: 1.6em;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+section {
+  background-color: aqua;
+  font-size: 1.6em;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  flex-basis: 50%;
+}
+.left {
+  background-color: green;
+  font-size: 1.6em;
+  height: 200px;
+  flex-basis: 25%;
+}
+.right {
+  background-color: pink;
+  font-size: 1.6em;
+  height: 200px;
+  flex-basis: 25%;
+}
+
+footer {
+  background-color: violet;
+  font-size: 1.6em;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    flex-basis: 70%;
+  }
+  .right {
+    flex-basis: 30%;
+  }
+  .left {
+    flex-basis: 100%;
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-basis: 100%;
+      }
+      .right {
+        flex-basis: 100%;
+      }
+      .left {
+        flex-basis: 100%;
+}
+
