@@ -59,7 +59,7 @@ const allAgree = (event) => {
   //   console.log(event.target.checked);
 };
 
-newsletterForm.addEventListener("click", (event) => {
+newsletterForm.addEventListener("submit", (event) => {
   validate(event);
 });
 
