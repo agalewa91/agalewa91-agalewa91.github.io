@@ -1,0 +1,34 @@
+hr {
+  width: 25%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+.accordion-button::after {
+  content: none;
+}
+.accordion-button {
+  font-size: 12px;
+  background-color: rgb(234, 234, 234);
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+  color: gray;
+  background-color: rgb(234, 234, 234);
+  text-decoration: underline;
+}
+
+.btn:hover {
+  color: gray;
+}
+
+.tx {
+  color: gray;
+  font-size: 12px;
+}
