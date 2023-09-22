@@ -72,12 +72,12 @@
 
   @media all and (min-width: $extra-large) {
     .header-bg {
-      max-width: 40%;
+      max-width: 45%;
     }
   }
   @media all and (min-width: $large) {
     .main-header-holder {
-      width: 60%;
+      width: 55%;
     }
 
     .header-bg {
@@ -92,5 +92,10 @@
         margin: 0;
       }
     }
+  }
+}
+@media all and (max-width: $small) {
+  .main-header {
+    height: 400px;
   }
 }

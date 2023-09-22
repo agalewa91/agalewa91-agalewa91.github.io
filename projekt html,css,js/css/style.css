@@ -496,12 +496,12 @@ section .section-header p {
 }
 @media all and (min-width: 1200px) {
   .main-header .header-bg {
-    max-width: 40%;
+    max-width: 45%;
   }
 }
 @media all and (min-width: 992px) {
   .main-header .main-header-holder {
-    width: 60%;
+    width: 55%;
   }
   .main-header .header-bg {
     display: block;
@@ -514,13 +514,18 @@ section .section-header p {
   }
 }
 
+@media all and (max-width: 576px) {
+  .main-header {
+    height: 400px;
+  }
+}
 .about {
   text-align: center;
 }
-.about .about-heade img {
+.about .about-header img {
   max-width: 100px;
 }
-.about .about-heade .about-header-description {
+.about .about-header .about-header-description {
   color: #473452;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -530,6 +535,7 @@ section .section-header p {
   max-width: 850px;
   font-weight: 300;
   margin: 0 auto;
+  margin: 26px;
 }
 
 .servicies .service {
@@ -753,7 +759,20 @@ section .section-header p {
 }
 .infobox .infobox-inner p {
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.infobox .infobox-inner h3 {
+  font-size: 22px;
+}
+@media all and (min-width: 768px) {
+  .infobox .infobox-inner h3 {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 992px) {
+  .infobox .infobox-inner h3 {
+    font-size: 22px;
+  }
 }
 
 .infobox-team {
