@@ -514,11 +514,6 @@ section .section-header p {
   }
 }
 
-@media all and (max-width: 576px) {
-  .main-header {
-    height: 400px;
-  }
-}
 .about {
   text-align: center;
 }
