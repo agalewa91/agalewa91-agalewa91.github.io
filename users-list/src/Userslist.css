@@ -1,0 +1,39 @@
+.usersList form {
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
+}
+
+.usersList form input,
+.usersList form select {
+  width: 100%;
+}
+
+.usersList form button {
+  background-color: rgb(84, 180, 180);
+  padding: 5px 15px;
+  margin-top: 15px;
+  border: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.usersList form button:hover {
+  opacity: 0.8;
+}
+
+.userList .list {
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
+}
+
+.userList .list .userItem {
+  border: 1px solid green;
+}
+
+.userList .list .userItem:hover {
+  background-color: red;
+}
